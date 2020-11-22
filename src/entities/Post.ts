@@ -18,6 +18,6 @@ export class Post {
   createdAt = new Date();
 
   @Field(() => String)
-  @Property({ onUpdate: () => new Date(), type: "date " })
+  @Property({ onUpdate: () => new Date(), type: "date" })
   updatedAt = new Date();
 }
